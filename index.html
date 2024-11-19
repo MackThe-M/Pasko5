@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Box Selector</title>
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+    /* Inline CSS for background image */
+    body {
+        background-image: url('img/gift.png'); /* Replace 'img/pasko.png' with the actual image file path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+  <div id="registration">
+    <h2>Register for Selection</h2>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button id="registerBtn">Register</button>
+  </div>
+
+  <div id="selection" style="display:none;">
+    <h2>Select a Box</h2>
+    <div id="boxesContainer"></div>
+    <button id="resetBtn" style="display:none;">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
